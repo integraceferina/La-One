@@ -1,0 +1,67 @@
+body{
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #A12568;
+}
+
+
+.layout {
+  height: 100vh;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Hina Mincho", serif;
+}
+
+.historia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  color: #FEC260;
+}
+
+.opciones {
+  color: #FEC260;
+}
+
+.opcion {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.recordatorio {
+  color: #FEC260;
+  margin-top: 60px;
+}
+
+.botones {
+  box-shadow: inset 0px 1px 0px 0px #2A0944;
+  background: linear-gradient(to bottom,#2A0944 5%, #A12568 100%);
+  background-color: #2A0944;
+  border-radius: 24px;
+  border: 1px solid #2A0944;
+  display: inline-block;
+  cursor: pointer;
+  color:#FEC260;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  
+}
+.botones:hover {
+  background: linear-gradient(to bottom,#3B185F 5%, #A12568 100%);
+  background-color: #2A0944;
+  
+}
+.botones:active {
+ 
+  position: relative;
+  top: 1px;
+}
